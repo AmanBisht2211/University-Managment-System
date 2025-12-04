@@ -1,0 +1,44 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for UMS.
+title: "[FEATURE] "
+labels: ["enhancement", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for UMS? We'd love to hear it!
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: A brief title for the feature.
+      placeholder: "e.g., Add dark mode to the dashboard."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature in detail.
+      placeholder: "Explain what the feature does, why it's needed, and how it benefits users."
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      description: Who would use this and how?
+      placeholder: "e.g., Students can toggle dark mode for better readability at night."
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any other solutions you've thought of?
+      placeholder: "e.g., We could use a theme switcher instead."
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Mockups, links, or related issues?
+      placeholder: "Attach mockups or link to similar features in other apps."
