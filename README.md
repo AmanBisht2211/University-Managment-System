@@ -130,4 +130,4 @@ Track development milestones here. Update as you progress.
 
 For questions or updates, contact pradeepgame3@gmail.com or open an issue on GitHub.
 
-by Aman Singh Bisht
+by **Aman Singh Bisht**
